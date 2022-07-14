@@ -49,11 +49,11 @@
     <form>
       <div class="mb-3">
         <label for="firstName" class="form-label">First Name</label>
-        <input type="text" class="form-control" id="firstName">
+        <input type="text" class="form-control" id="firstName" required>
       </div>
       <div class="mb-3">
-        <label for="lastName" class="form-label">Last Name</label>
-        <input type="text" class="form-control" id="lastName">
+        <label for="lastName" class="form-label">Pick a date</label>
+        <input type="date" required class="form-control" id="lastName">
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -63,6 +63,12 @@
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Zipcode</label>
+        <input type="text" pattern="\d{5}(?:-\d{4})?|[a-zA-Z]\d[a-zA-Z] ?\d[a-zA-Z]\d" class="form-control" id="exampleInputPassword1">
+        <div id="emailHelp" class="form-text">Valid US or Canadian Postal code (33065-7777).</div>
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword2" class="form-label">State</label>
