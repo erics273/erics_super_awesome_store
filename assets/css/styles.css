@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+
 .card-img-top {
     height: 15vw
+}
+
+body{
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+#seeThroughBG{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg?crop=1.00xw:0.752xh;0,0.0601xh&resize=1200:*) ;
+    height: 500px;
+}
+
+.seethrough{
+    background: rgba(255, 255, 255, 0.6);
 }
